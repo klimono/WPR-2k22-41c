@@ -28,7 +28,7 @@ for($i = $a-1; $i >= 0; $i--){
 
 for($i = $a-1, $l = 0; $i >= 0; $i--, $l++){
     for($j = 0; $j < $l; $j++){
-        echo("&nbsp;");
+        echo("&nbsp;&nbsp;");
     }
     for($k=0; $k<=$i; $k++){
         echo("*");
@@ -39,7 +39,7 @@ for($i = $a-1, $l = 0; $i >= 0; $i--, $l++){
 
 for($i = 0, $l = $a-1; $i < $a; $i++, $l--){
     for($j = 0; $j < $l; $j++){
-        echo("&nbsp;");
+        echo("&nbsp;&nbsp;");
     }
     for($k=0; $k<=$i; $k++){
         echo("*");
